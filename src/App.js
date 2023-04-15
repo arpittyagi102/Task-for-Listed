@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <SignInPage/>
-      <h1>This is a fresh new React App</h1>
     </>
   );
 }

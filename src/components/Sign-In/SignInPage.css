@@ -1,3 +1,6 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 .side-board{
     background-color: black;
     height: 100vh;
@@ -5,16 +8,115 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    float:left;
+}
+
+.side-board-heading{
+    color:white;
+    font-size: 5vw;
+}
+.white-part{
+    float: right;
+    background: #F5F5F5;
+    height: 100vh;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    margin:5px;
+}
+.white-buttons{
+    width: 180px;
+    background-color: white;
+    border-radius: 10px;
+    color:#858585;
+    padding:5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.white-buttons:hover{
+    color:black;
+    cursor: pointer;
+}
+img{
+    height: 15px;
+    margin:3px;
+}
+.form-outer{
+    background-color: white;
+    width: 400px;
+    border-radius: 20px;
+    padding:20px;
+}
+label{
+    font-size: 20px;
+    font-family: 'lato','sans-serif';
+}
+input{
+    width: 95%;
+    margin:10px 0px 20px 0px;
+    padding:10px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    border:none;
+    font-size:20px;
+    font-family: 'lato','sans-serif';
+}
+input:focus{
+    outline: none;
+}
+.forgot{
+    font-family: 'lato';
+    color: blue;
+    font-size:20px;
+    margin:0px;
+}
+.forgot:hover{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
-    .side-board{
-        display: none;
+    .white-part{
+        width:100%;
     }
+    .side-board{
+        width:0px;
+    }  
 }
-.side-board-heading{
-    font-family: 'Montserrat', sans-serif;
+.main-sign-in-button{
+    width:95%;
     color:white;
-    font-size: 5vw;
+    background-color: black;
+    text-align: center;
     font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin:20px 0px;
+    height: 35px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.main-sign-in-button:hover{
+    background-color: rgba(0, 0, 0, 0.875);
+    cursor: pointer;
+}
+.register{
+    align-self: center;
+    color:#858585;
+}
+.resgister2{
+    color:blue;
+}
+.resgister2:hover{
+    cursor: pointer;
 }
