@@ -34,8 +34,11 @@
 .white-buttons{
     width: 180px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 3px;
     color:#858585;
+    border:solid;
+    border-color: #DADCE0;
+    border-width: 1px;
     padding:5px;
     text-align: center;
     display: flex;
@@ -45,6 +48,9 @@
 .white-buttons:hover{
     color:black;
     cursor: pointer;
+}
+.white-buttons > *{
+    border:none;
 }
 img{
     height: 15px;
