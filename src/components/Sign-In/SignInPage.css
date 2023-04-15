@@ -1,0 +1,20 @@
+.side-board{
+    background-color: black;
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .side-board{
+        display: none;
+    }
+}
+.side-board-heading{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 5vw;
+    font-weight: bold;
+}
