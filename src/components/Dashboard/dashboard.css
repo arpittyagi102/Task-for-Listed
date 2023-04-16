@@ -1,0 +1,13 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.outer{
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    padding :30px 50px;
+    background-color: #DDDDDD;
+}
+

@@ -1,0 +1,38 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.side-bar{
+    width:150px;
+    height: 85%;
+    background-color: black;
+    border-radius: 30px;
+    padding:50px;
+    position: relative;
+}
+.side-bar-heading{
+    color:White;   
+    font-weight: bold;
+    margin:0px 0px 40px 0px;
+}
+.side-board-items{
+    display: flex;
+    height: 50px;
+}
+.side-board-item-icon{
+    height: 20px;
+    margin-right: 20px;
+}
+.side-board-item-label{
+    color:white;
+}
+.selected div{
+    font-weight: bold;
+}
+.bottom-cover{
+    color:white;
+    position:absolute;
+    bottom: 20px;
+}
+p{
+    color: white;
+}
