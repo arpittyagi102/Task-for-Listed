@@ -29,6 +29,36 @@
     justify-content: space-between;
     font-weight: bold;
 }
+.header-right{
+    display: flex;
+    gap:20px;
+}
+.search-outer{
+    background-color: white;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    border-radius: 10px;
+    border: none;
+    margin:15px;
+}
+.search-bar:focus{
+    outline: none;
+}
+.search-icon{
+    height: 20px;
+    margin:8px;
+    opacity: 0.5;
+}
+.bell,.dp{
+    height: 30px
+}
+.dp{
+    border-radius: 50%;
+}
 
 
 
