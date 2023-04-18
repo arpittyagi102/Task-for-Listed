@@ -33,7 +33,7 @@ export default function Dashboardsidebar() {
                     <img className="side-board-item-icon" src={sett} alt="side-board-item-icon"></img>
                     <div className="side-board-item-label">Settings</div>
                 </div>
-                <div className="bottom-cover">
+                <div className="side-bar-bottom-cover">
                     <p className="bottom-buttons">Help</p>
                     <p className="bottom-buttons">Contact us</p>
                 </div>

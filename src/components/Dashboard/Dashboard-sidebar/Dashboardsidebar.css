@@ -2,20 +2,22 @@
     font-family: 'Montserrat', sans-serif;
 }
 .side-bar{
-    width:150px;
+    width:60%;
     height: 85%;
     background-color: black;
     border-radius: 30px;
-    padding:50px;
+    padding:20%;
     position: relative;
 }
 .side-bar-heading{
     color:White;   
     font-weight: bold;
+    width: min-content;
     margin:0px 0px 40px 0px;
 }
 .side-board-items{
     display: flex;
+    width:min-content;
     height: 50px;
 }
 .side-board-item-icon{
@@ -28,11 +30,11 @@
 .selected div{
     font-weight: bold;
 }
-.bottom-cover{
+.side-bar-bottom-cover{
     color:white;
     position:absolute;
     bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
-p{
-    color: white;
-}
+

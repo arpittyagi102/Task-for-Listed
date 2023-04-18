@@ -4,26 +4,28 @@
 .outer{
     position:absolute;
     display: flex;
+    justify-content: center;
     top:0px;
     right:0px;
     bottom:0px;
     left:0px;
-    padding :30px 50px;
-    background-color: #DDDDDD;
+    height: 95vh;
+    padding :10px 50px;
+    background-color: #f5f5f5;
+    
 }
 .left{
-    float:left
+    float:left;
+    width: 20%;
 }
 .main-page{
     float: right;
-    width: 100%;
+    width:75%;
     margin-left: 50px;
-    border: solid;
 }
 .header{
     width:100%;
-    height: 70px;
-    background-color: red;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,6 +61,74 @@
 .dp{
     border-radius: 50%;
 }
+.color-boxes{
+    display:flex;
+    justify-content: space-between;
+}
+.color-box{
+    background-color: blue;
+    border-radius: 20px;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    padding:2% 2%;
+    align-items: flex-start;
+}
+.colorbox-icon{
+    align-self: flex-end;
+    height: 30px;
+}
+.colorbox-value{
+    margin:0px;
+}
+p{
+    margin:5px 0px;
+}
+.chart-outest{
+    width :100%;    
+    margin:10px;
+    background-color: white;
+    margin:10px 0px;
+    border-radius: 20px;
+    padding:10px 0px;
+}
+.side-bar-bottom-cover{
+    display: flex;
+    width:90%;
+}
+.side-bar-bottom-cover p{
+    color:white
+}
+.bottom-cover{
+    display: flex;
+    justify-content: space-between;
+}
 
+.piechart-box,.schedule-box{
+    width:45%;
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+}
+.piechart-box{
+    display: flex;
+    justify-content: center;
+}
+.time-table{
+    border-style: solid;
+    border-width:0px 0px 0px 7px;
+    border-color:  #9BDD7C;
+    padding: 0px 13px;
+}
+.time-table p{
+    color:#666666;
+    font-size: 12px;
+}
+.schedule-box{
+    height: 190px;
+}
+.schedule-box *{
+    margin-left:15px
+}
 
 
