@@ -3,6 +3,7 @@ import './SignInPage.css';
 import appleicon from './apple-icon.svg';
 import { GoogleLogin } from '@react-oauth/google';
 import jwtDecode from "jwt-decode";
+import { Link } from "react-router-dom";
 
 var userdata;
 export default function SignInPage() {
@@ -11,7 +12,8 @@ export default function SignInPage() {
         userdata=jwtDecode(response.credential);
         console.log("Name : "+userdata.name)    
         console.log("email : "+userdata.email)    
-        console.log("Picture : "+userdata.picture)    
+        console.log("Picture : "+userdata.picture);
+        window.location.href="/dashboard";    
     }
 
     return (
@@ -36,11 +38,13 @@ export default function SignInPage() {
                     </div>
                     <div className="form-outer">
                         <label>Email address</label>
-                        <input type="text" />
+                        <input className="input" type="text" />
                         <label>Password</label>
-                        <input type="password" />
+                        <input className="input" type="password" />
                         <p className="forgot">Forgot password?</p>
-                        <div className="main-sign-in-button">Sign In</div>
+                        <Link to={'./dashboard'} style={{"textDecoration":"none"}}>
+                            <div className="main-sign-in-button">Sign In</div>
+                        </Link>
                     </div>
                 </div>
                 <p className="register">Don't have an account? <span className="resgister2">Register here</span></p>

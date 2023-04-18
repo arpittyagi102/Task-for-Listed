@@ -31,7 +31,7 @@ export default function Dashboard() {
                         Dashboard
                         <div className="header-right">
                             <div className="search-outer">
-                                <input className="search-bar" placeholder="Search..." />
+                                <input className="search-bar" placeholder="Search..." style={{backgroundColor:"white"}} />
                                 <img src={searchicon} alt="search icon" className="search-icon" />
                             </div>
 

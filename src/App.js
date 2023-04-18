@@ -1,12 +1,15 @@
 import React from 'react';
-//import SignInPage from './components/Sign-In/Sign-In-page';
+import SignInPage from './components/Sign-In/Sign-In-page';
 import Dashboard from './components/Dashboard/Dashboard';
+import {Routes,Route} from 'react-router-dom'
 
 function App() {
   return (
     <>
-      {/* <SignInPage/> */}
-      <Dashboard/>
+      <Routes>
+        <Route path='/' element={<SignInPage/>}/>
+        <Route path='/dashboard' element={<Dashboard/>}/>
+      </Routes>
     </>
   );
 }

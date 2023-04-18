@@ -66,7 +66,7 @@ label{
     font-size: 20px;
     font-family: 'lato','sans-serif';
 }
-input{
+.input{
     width: 95%;
     margin:10px 0px 20px 0px;
     padding:10px;
@@ -98,6 +98,7 @@ input:focus{
     }  
 }
 .main-sign-in-button{
+    text-decoration: none;
     width:95%;
     color:white;
     background-color: black;
