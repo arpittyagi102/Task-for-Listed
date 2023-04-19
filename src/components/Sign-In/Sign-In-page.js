@@ -8,10 +8,14 @@ import { Link } from "react-router-dom";
 export default function SignInPage() {
 
     const login = useGoogleLogin({
-        onSuccess: codeResponse => console.log(codeResponse),
-        flow: 'auth-code',
+        onSuccess: codeResponse => loggedin(codeResponse),
         redirect_uri:"https://taskforlisted.netlify.app/dashboard",
       });
+
+    function loggedin(response){
+        console.log("Logged in");
+        window.location.href="/dashboard";
+    }
 
     return (
         <>
