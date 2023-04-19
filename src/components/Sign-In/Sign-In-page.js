@@ -28,7 +28,7 @@ export default function SignInPage() {
                             Sign In with Google */}
                         <div className="white-buttons" id="b1" onClick={() => login()}>
                             <img src={googleicon} alt="Not loading" />
-                            <p>Sign In with Apple</p>
+                            <p>Sign In with Google</p>
                         </div>
                         <div className="white-buttons" id="b2">
                             <img src={appleicon} alt="Not loading" />

@@ -1,10 +1,10 @@
 
 const data = {
-  labels: ['', 'Week 1', 'Week 2', 'Week 3', 'Week 4', ''],
+  labels: ['', 'Week 1','', 'Week 2','', 'Week 3','', 'Week 4', ''],
   datasets: [
     {
       label: 'Guest           ',
-      data: [100, 400, 200, 50, 150, 250],
+      data: [100, 400, 200, 50, 150,500,100,50,500],
       fill: false,
       borderColor: '#E9A0A0',
       tension: 0.4,
@@ -14,7 +14,7 @@ const data = {
     },
     {
       label: 'User',
-      data: [400, 100, 150, 300, 450, 200],
+      data: [400, 100, 150, 300, 450, 200,300,50,150],
       fill: false,
       borderColor: '#9BDD7C',
       tension: 0.4,
