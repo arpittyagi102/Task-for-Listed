@@ -3,10 +3,8 @@ import './SignInPage.css';
 import appleicon from './apple-icon.svg';
 import { useGoogleLogin } from '@react-oauth/google';
 import googleicon from './google-icon.svg'
-import jwtDecode from "jwt-decode";
 import { Link } from "react-router-dom";
 
-var userdata;
 export default function SignInPage() {
 
     const login = useGoogleLogin({
@@ -14,16 +12,6 @@ export default function SignInPage() {
         flow: 'auth-code',
         redirect_uri:"https://taskforlisted.netlify.app/dashboard",
       });
-    
-    function loggedin(response) {
-        console.log(response);
-        //userdata = jwtDecode(response);
-        /* console.log(userdata);
-        console.log("Name : " + userdata.name)
-        console.log("email : " + userdata.email)
-        console.log("Picture : " + userdata.picture);
-        window.location.href="/dashboard";     */
-    }
 
     return (
         <>

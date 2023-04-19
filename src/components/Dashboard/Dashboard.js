@@ -52,7 +52,7 @@ export default function Dashboard() {
                         <div className="piechart-box">
                             <PieChartOuter/>
                         </div>
-                        <div className="schedule-box" style={{padding:"5px 40px",display:"flex","justifyContent":"space-evenly",flexDirection:"column"}}>
+                        <div className="schedule-box">
                             <div className="schedule-header" style={{display:"flex","justifyContent":"space-between",alignItems:"center"}}>
                                 <h3 style={{margin:"5px"}}>Today's schedule</h3>
                                 See All 
