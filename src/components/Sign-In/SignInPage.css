@@ -1,3 +1,55 @@
+
+@media screen and (max-width: 500px) {
+    #b1,#b2{
+        width:10vw;
+        border-radius:10px ;
+    }
+    #b1 p,#b2 p{
+        display: none;
+    }
+    .button-cover{
+        margin:3vw;
+    }
+    .white-part div{
+        width: 90%;
+    }
+    
+    p,.forgot{
+        font-size:3vw;
+    }
+    .sign-in-heading{
+        font-size:7vw ;
+    }
+    .sign-in-outer{
+        height: 120vw;
+    }
+    
+    .label{
+        font-size: 4vw;
+    }
+    .input{
+        height: 7vw;
+        margin:3vw 0px;
+        padding:2vw;
+    }    
+    .main-sign-in-button{
+        height: 8vw;
+    } 
+    .main-sign-in-button{
+        font-size: 5vw;
+        margin:3vw 0px;
+    }  
+} 
+
+@media screen and (max-width: 800px) {
+    .white-part{
+        width:100%;
+    }
+    .side-board{
+        width:0px;
+    }  
+}
+
 *{
     font-family: 'Montserrat', sans-serif;
 }
@@ -124,56 +176,4 @@ input:focus{
 .resgister2:hover{
     cursor: pointer;
 }
-@media screen and (max-width: 800px) {
-    .white-part{
-        width:100%;
-    }
-    .side-board{
-        width:0px;
-    }  
-}
-@media screen and (max-width: 500px) {
-    #b1,#b2{
-        width:10vw;
-        border-radius:10px ;
-    }
-    #b1 p,#b2 p{
-        display: none;
-    }
-    .button-cover{
-        margin:3vw;
-    }
-    .white-part div{
-        width: 90%;
-    }
-    
-    p,.forgot{
-        font-size:3vw;
-    }
-    .sign-in-heading{
-        font-size:7vw ;
-    }
-    .sign-in-outer{
-        height: 120vw;
-    }
-    .form-outer{
-        display: flex;
-        flex-direction: column;
-        padding:10px;
-    }
-    label{
-        font-size: 4vw;
-    }
-    .input{
-        height: 7vw;
-        margin:3vw 0px;
-        padding:2vw;
-    }    
-    .main-sign-in-button{
-        height: 8vw;
-    } 
-    .main-sign-in-button{
-        font-size: 5vw;
-        margin:3vw 0px;
-    }  
-}
+

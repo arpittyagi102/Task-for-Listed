@@ -5,6 +5,7 @@ import { useGoogleLogin } from '@react-oauth/google';
 import googleicon from './google-icon.svg'
 import jwtDecode from "jwt-decode";
 import { Link } from "react-router-dom";
+import './mediaquery.css';
 
 var userdata;
 export default function SignInPage() {
@@ -48,9 +49,9 @@ export default function SignInPage() {
                         </div>
                     </div>
                     <div className="form-outer">
-                        <label>Email address</label>
+                        <label className="label">Email address</label>
                         <input className="input" type="text" />
-                        <label>Password</label>
+                        <label className="label">Password</label>
                         <input className="input" type="password" />
                         <p className="forgot">Forgot password?</p>
                         <Link to={'./dashboard'} style={{ "textDecoration": "none" }}>

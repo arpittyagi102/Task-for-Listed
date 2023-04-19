@@ -37,6 +37,11 @@
     display: flex;
     flex-direction: column;
 }
+.form-outer{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
 
 
 @media screen and (max-width: 1200px) {
